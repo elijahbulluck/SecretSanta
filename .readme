@@ -1,0 +1,13 @@
+This program is a Secret Santa random generator that is used within my family, since most of the other ones I have seen online require to see everyone's
+gifter and receiver after entering their names, and I wanna participate too!
+To run it, type in "ruby main.rb" from the command line within the SecretSanta folder. (make sure you have twilio gem installed, run the command "gem install twilio-ruby")
+After executing this statement, you will be prompted for your Twilio account SID,
+authorization token, and phone number (assuming you have an account that is 
+toll-free message verified). After you enter your information, you will be prompted
+to enter the names and phone numbers of each participant, and type "done" when finished.
+When finished, the participants will be shuffled and each persons Secret Santa will be sent to them
+via SMS text message.
+
+Merry Christmas!
+
+- Elijah Bulluck
